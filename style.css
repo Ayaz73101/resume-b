@@ -1,0 +1,103 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    color: #333;
+}
+
+/* Resume Container */
+#resumeDetails {
+    width: 70%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Main Heading */
+#resumeDetails h1 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 36px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #1e3a8a;
+    padding-bottom: 15px;
+}
+
+/* Section Headings */
+#resumeDetails h2 {
+    color: #1e3a8a;
+    font-size: 22px;
+    margin-top: 30px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Paragraphs */
+#resumeDetails p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+/* Strong Text */
+#resumeDetails strong {
+    color: #111827;
+}
+
+/* Skills List */
+#resumeDetails ul {
+    padding-left: 25px;
+}
+
+#resumeDetails li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* Show Resume Button */
+#showResume {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #1e3a8a;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#showResume:hover {
+    background: #2563eb;
+    transform: scale(1.05);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+
+    #resumeDetails {
+        width: 85%;
+        padding: 25px;
+        margin: 20px auto;
+    }
+
+    #resumeDetails h1 {
+        font-size: 28px;
+    }
+
+    #resumeDetails h2 {
+        font-size: 20px;
+    }
+
+    #resumeDetails p,
+    #resumeDetails li {
+        font-size: 14px;
+    }
+}
